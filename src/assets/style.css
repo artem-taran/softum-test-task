@@ -1,0 +1,43 @@
+* {
+  font-family: sans-serif;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+h2 {
+  margin: 0;
+}
+
+label,
+input {
+  cursor: pointer;
+}
+
+body {
+  background-color: #f6f5ed;
+}
+
+button {
+  padding: 4px 8px;
+  font-size: 16px;
+  border-width: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #0dcaf0;
+}
+
+.date {
+  margin-top: 10px;
+}
+
+.home {
+  text-align: center;
+}
+
+#app {
+  width: 580px;
+  margin: 0 auto;
+}
