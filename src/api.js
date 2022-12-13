@@ -1,7 +1,7 @@
 import { format } from "date-fns";
 
 const apiDateFormat = "dd.MM.yyyy";
-const proxy = "https://secure-headland-28756.herokuapp.com";
+const proxy = "https://proxy-server-for-private-api.onrender.com";
 
 export function loadRates(date) {
   const formattedDate = format(new Date(date), apiDateFormat);
